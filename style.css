@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  }
+
+  .DIV{
+    padding-top: 20PX;
+  
+  }
+  
+  .navbar {
+    padding-left:50px ;
+ padding-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .logo {
+    padding-left:80px ;
+    margin-right: auto; /* Push the logo to the left by taking up remaining space */
+
+    padding-top: 20PX;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    font-size: large;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #555;
+  }
+  
+  .fa {
+    margin-right: 5px;
+
+
+  }
+
+
+  /* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    header, nav, main, footer {
+      padding: 10px;
+    }
+    
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+#h1{
+    color: rgb(255, 255, 255);
+}
+
+#p1{
+    color: rgb(255, 255, 255);
+}
+
+.div{
+    align-items: center;
+}
+.button{
+    border-radius: 50px;
+    background-color: aliceblue;
+  font-size: large;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+
+
+}
+
+#logo{
+    font-size: 50px;
+  align-items:flex-start;
+}
+
